@@ -9,30 +9,30 @@ body {
   margin: 0;
   background-image: url("../images/bgtile.png");
   background-repeat: repeat-x;
+  background-size: auto 280px;
 }
 
 footer {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.main-content-frame {
-  width: 1500px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  clear: both;
+  color: #1c5380;
 }
 
 .big-phones-picture {
-  display: block;
   float: left;
-  margin-right: 100px;
+  margin-top: 90px;
+  margin-left: 140px;
+  margin-right: 10px;
 }
 
-.main-content-sub-frame {
-  float: right;
-  margin-left: 100px;
+.main-content-frame {
+  width: 500px;
+  margin-top: 110px;
+  margin-left: 10px;
+  margin-right: 140px;
+  float:right;
 }
 
 .brand-container {
@@ -45,16 +45,30 @@ footer {
 
 .login-button {
   float: right;
+  height: 30px;
+  width: auto;
+  margin-top: 20px;
+  padding: 5px;
+  background-image: linear-gradient(#1c5280, #06365f);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: thin;
 }
 
+.login-word {
 
+}
 
 .info-box {
-
+  clear: both;
+  background-image: url("../images/frame.png");
+  background-repeat: no-repeat;
+  padding: 10px 40px;
+  margin-top: 95px;
 }
 
 .info-title {
-
+  color: #06365f;
 }
 
 .info-description {
@@ -62,5 +76,5 @@ footer {
 }
 
 .badges-frame {
-
+  margin-left: 40px;
 }
